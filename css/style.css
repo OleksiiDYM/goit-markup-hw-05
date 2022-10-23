@@ -81,6 +81,15 @@ body {
   letter-spacing: 0.02em;
   color: var(--font-black);
 }
+.header-link1 {
+  position: relative;
+  display: block;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--font-black);
+}
 .header-link:hover,
 .header-link:focus {
   color: var(--button-color);
@@ -342,6 +351,8 @@ body {
   justify-content: center;
   color: #ffffff;
   margin-top: 16px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .soc-list {
@@ -352,14 +363,17 @@ body {
 }
 .soc-icon {
   fill: #afb1b8;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .soc-link:hover,
 .soc-link:focus {
   background-color: var(--button-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .soc-link:hover .soc-icon,
 .soc-link:focus .soc-icon {
-  background-color: var(--button-color);
   fill: #ffffff;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -402,6 +416,8 @@ body {
   left: 615px;
   top: 2490px;
   color: #afb1b8;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-icon {
   fill: currentColor;
@@ -411,8 +427,6 @@ body {
   background-color: #ffffff;
   color: var(--button-color);
   border-color: var(--button-color);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-list {
   display: flex;
@@ -488,6 +502,8 @@ body {
   align-items: center;
   justify-content: center;
   background-color: rgba(255, 255, 255, 0.1);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-social {
   margin-left: 70px;
@@ -499,6 +515,7 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 /* ---------FOOTER---------- */
 /*---------BACKDROP--------*/
 .backdrop {
